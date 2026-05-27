@@ -35,16 +35,46 @@ It works on:
 
 ## Installation
 
-This extension is not published to the Chrome Web Store. Install it as an
-unpacked extension:
+This extension is not published to the Chrome Web Store. You install it by
+downloading a ZIP from the [latest release](https://github.com/murphybp2/oh-webform-name-extension/releases/latest)
+and pointing Chrome at the unzipped folder. No GitHub account is required.
 
-1. Clone or download this repository to your machine.
-2. Open Chrome and go to `chrome://extensions`.
-3. Turn on **Developer mode** (toggle in the top-right corner).
-4. Click **Load unpacked** and select the project folder
-   (`oh-webform-name-extension/`).
-5. The Orlando Health Form Name Reader icon should now appear in your
+### Step 1: Download the extension
+
+1. Go to the [latest release page](https://github.com/murphybp2/oh-webform-name-extension/releases/latest).
+2. Under the **Assets** heading near the bottom, click the file ending in
+   `.zip` to download it.
+
+### Step 2: Unzip the downloaded file
+
+1. Open your **Downloads** folder.
+2. Double-click the ZIP file to extract it. You should now have a folder
+   called `oh-webform-name-extension` next to the ZIP.
+
+### Step 3: Load the extension into Chrome
+
+1. Open Chrome and type `chrome://extensions` in the address bar, then
+   press **Enter**.
+2. In the **top-right corner** of the page, turn on the **Developer mode**
+   toggle.
+3. Click the **Load unpacked** button that appears in the top-left, just
+   below the page title.
+4. Browse to the unzipped `oh-webform-name-extension` folder and click
+   **Select**.
+5. The **Orlando Health Form Name Reader** icon should now appear in your
    extensions toolbar.
+
+### Updating to a new version
+
+When a new release is published, repeat the steps above. Before loading the
+new version, click **Remove** on the old one in `chrome://extensions` so you
+don't have two copies installed.
+
+### For developers
+
+If you have Git installed and prefer to work from source, clone this
+repository and load the cloned folder via the same `chrome://extensions`
+→ **Load unpacked** flow.
 
 ## Usage
 
