@@ -76,23 +76,5 @@ look inside iframes, then prefers a frame that has both `Form Name` and
 There is no build step. Edit the files directly and reload the extension from
 `chrome://extensions` to pick up changes.
 
-To bump the version, update `manifest.json` and the changelog comments at the
-top of `popup.html` and `popup.js`.
-
-## Changelog
-
-- **1.3.0** — Form Name and Form ID are checked independently; partial results
-  are shown with a warning banner when one field is missing
-- **1.2.3** — Left-aligned error messages; the support email is a clickable
-  mailto link
-- **1.2.2** — Improved error messages: distinguishes "no form on this page"
-  from "form found, but hidden fields are missing"
-- **1.2.1** — Fixed false `MISSING_FIELDS` error on SharePoint pages that
-  embed the form in an iframe
-- **1.2.0** — Added support for forms embedded via iframe
-- **1.1.3** — Added detection for TFAForms pages missing required fields
-- **1.1.2** — Simplified DOM loading with better error handling
-- **1.1.1** — Fixed a DOM loading issue (elements not initializing)
-- **1.1.0** — Implemented 1Password-style click-to-copy interaction
-- **1.0.1** — Added separate copy buttons for name and ID
-- **1.0.0** — Initial improvements (encoding fixes, error handling)
+To bump the version, update the version string in `manifest.json` and add an
+entry to [CHANGELOG.md](CHANGELOG.md).
