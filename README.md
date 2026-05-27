@@ -35,9 +35,11 @@ It works on:
 
 ## Installation
 
-This extension is not published to the Chrome Web Store. You install it by
-downloading a ZIP from the [latest release](https://github.com/murphybp2/oh-webform-name-extension/releases/latest)
-and pointing Chrome at the unzipped folder. No GitHub account is required.
+This extension is not published to the Chrome Web Store or Microsoft Edge
+Add-ons. You install it by downloading a ZIP from the
+[latest release](https://github.com/murphybp2/oh-webform-name-extension/releases/latest)
+and pointing **Chrome or Microsoft Edge** at the unzipped folder. No GitHub
+account is required.
 
 ### Step 1: Download the extension
 
@@ -51,14 +53,16 @@ and pointing Chrome at the unzipped folder. No GitHub account is required.
 2. Double-click the ZIP file to extract it. You should now have a folder
    called `oh-webform-name-extension` next to the ZIP.
 
-### Step 3: Load the extension into Chrome
+### Step 3: Load the extension into Chrome or Edge
 
-1. Open Chrome and type `chrome://extensions` in the address bar, then
-   press **Enter**.
-2. In the **top-right corner** of the page, turn on the **Developer mode**
-   toggle.
-3. Click the **Load unpacked** button that appears in the top-left, just
-   below the page title.
+1. Open Chrome or Microsoft Edge. In the address bar, type one of the
+   following and press **Enter**:
+   - **Chrome:** `chrome://extensions`
+   - **Edge:** `edge://extensions`
+2. Turn on the **Developer mode** toggle:
+   - **Chrome:** the toggle is in the **top-right corner** of the page.
+   - **Edge:** the toggle is in the **bottom-left** of the page sidebar.
+3. Click the **Load unpacked** button that appears.
 4. Browse to the unzipped `oh-webform-name-extension` folder and click
    **Select**.
 5. The **Orlando Health Form Name Reader** icon should now appear in your
@@ -67,14 +71,14 @@ and pointing Chrome at the unzipped folder. No GitHub account is required.
 ### Updating to a new version
 
 When a new release is published, repeat the steps above. Before loading the
-new version, click **Remove** on the old one in `chrome://extensions` so you
-don't have two copies installed.
+new version, click **Remove** on the old one in `chrome://extensions` (or
+`edge://extensions`) so you don't have two copies installed.
 
 ### For developers
 
 If you have Git installed and prefer to work from source, clone this
 repository and load the cloned folder via the same `chrome://extensions`
-→ **Load unpacked** flow.
+(or `edge://extensions`) → **Load unpacked** flow.
 
 ## Usage
 
@@ -104,7 +108,8 @@ look inside iframes, then prefers a frame that has both `Form Name` and
 ## Development
 
 There is no build step. Edit the files directly and reload the extension from
-`chrome://extensions` to pick up changes.
+`chrome://extensions` (or `edge://extensions` in Microsoft Edge) to pick up
+changes.
 
 To bump the version, update the version string in `manifest.json` and add an
 entry to [CHANGELOG.md](CHANGELOG.md).
