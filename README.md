@@ -70,9 +70,17 @@ account is required.
 
 ### Updating to a new version
 
-When a new release is published, repeat the steps above. Before loading the
-new version, click **Remove** on the old one in `chrome://extensions` (or
-`edge://extensions`) so you don't have two copies installed.
+When a new release is published, repeat the installation steps above with
+the new ZIP. Before loading the new version, click **Remove** on the old
+one in `chrome://extensions` (or `edge://extensions`) so you don't have
+two copies installed.
+
+**Faster option:** if you kept the unpacked extension folder in the same
+location on disk, you can skip the remove-and-reinstall dance. Just
+overwrite that folder's contents with the new ZIP's contents (unzip,
+drag-and-replace), then open `chrome://extensions` (or `edge://extensions`)
+and click the **circular reload icon** on the **Orlando Health Form Name
+Reader** card. The browser picks up the new version instantly.
 
 ### For developers
 
