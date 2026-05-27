@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Chrome extension build artifacts
+*.crx
+*.pem
+*.zip
+
+# Local Claude Code settings (per-machine permissions)
+.claude/settings.local.json

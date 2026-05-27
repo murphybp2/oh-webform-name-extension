@@ -1,0 +1,22 @@
+{
+  "name": "Orlando Health Form Name Reader",
+  "version": "1.3.0",
+  "manifest_version": 3,
+  "description": "Displays and copies the Form Name and Form ID from Orlando Health forms.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["*://*.tfaforms.net/*"],
+  "action": {
+    "default_title": "Form Name Reader",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
